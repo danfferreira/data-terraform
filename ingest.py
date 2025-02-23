@@ -17,4 +17,4 @@ def write_data_s3(data, bucket_name, object_name):
 
 
 if __name__ == "__main__":
-    write_data_s3(get_data(url), "dnd-data-dan", "spells.json")
+    write_data_s3(get_data(url), "dnd-data-dan-new", "spells.json")
