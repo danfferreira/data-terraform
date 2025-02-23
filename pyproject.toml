@@ -1,0 +1,19 @@
+[project]
+name = "data-pipeline-aws"
+version = "0.1.0"
+description = "Ingestion script with infrastructure"
+authors = [
+    {name = "Dan"}
+]
+license = {text = "GNU"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "boto3 (>=1.36.26,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
